@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/Base24/base24-builder-python.svg?style=for-the-badge)](/LICENSE.md)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
 [![Last commit](https://img.shields.io/github/last-commit/Base24/base24-builder-python.svg?style=for-the-badge)](../../commits/master)
-[![PyPI](https://img.shields.io/pypi/dm/base24builder.svg?style=for-the-badge)](https://pypi.org/project/base24builder/)
 
 # base24-builder-python
 
