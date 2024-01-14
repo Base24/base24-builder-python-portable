@@ -1,18 +1,17 @@
-#!/usr/bin/env python3
 import os
 import sys
 import shutil
 import asyncio
 
-GIT_CLONE_PATH = "base24-builder-python-portable"
+GIT_CLONE_PATH = "base24-builder-python"
 
-# clone base24-builder-python-portable
+# clone base24-builder-python
 async def git_clone():
 	proc_env = os.environ.copy()
 	proc_env["GIT_TERMINAL_PROMPT"] = "0"
 
 	git_proc = await asyncio.create_subprocess_exec(
-		"git", "clone", "https://github.com/Base24/base24-builder-python-portable", GIT_CLONE_PATH, stderr=asyncio.subprocess.PIPE, env=proc_env
+		"git", "clone", "https://github.com/Base24/base24-builder-python", GIT_CLONE_PATH, stderr=asyncio.subprocess.PIPE, env=proc_env
 	)
 	_stdout, _stderr = await git_proc.communicate()
 	if git_proc.returncode != 0:

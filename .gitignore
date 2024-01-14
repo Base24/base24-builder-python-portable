@@ -1,8 +1,6 @@
-/templates
-/schemes
-/output
-sources
-sources.*
+/base24_builder
+/base24-builder-python
+base24.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
